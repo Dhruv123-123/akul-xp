@@ -126,7 +126,7 @@
         "secondTitle": "Thanks",
         "helpFirst": "This project was carried out with the help of Dockurr windows xp, which enabled me to run a Windows XP environment on my computer very easily.",
         "helpSecond": "Spotify's API enabled me to retrieve my playlist information, display it on my site and add an integrated player.",
-        "helpThird": "For the server side, I used a Node.js server to compile the site and manage the contact form. The website is hosted on hostinger and the CI / CD is made using my homeserver.",
+        "helpThird": "For the server side, I used a Node.js server to compile the site and manage the contact form. The website is hosted on Infomaniak and the CI / CD is made using my homeserver.",
         "helpFourth": "I was able to recover the Windows XP images and integrate them into my project thanks to the internet archive website. Many thanks to them.",
         "helpFifth": "My cat partly helped by stepping on my keyboard, but mostly she was a moral support."
       },
@@ -137,7 +137,7 @@
         "secondParagraph": "This site, accessible at the URL https://pauljaguin.com (the « Site »), is edited by:",
         "thirdParagraph": "Paul Jaguin, residing at 202 Boulevard de Charonne, 75020 PARIS, of French nationality (France), born on 09/23/1999.",
         "hosting": "Hosting",
-        "fourthParagraph": "The Site is hosted by Hostinger International LTD, which can be contacted at the following address: https://www.hostinger.fr/contact",
+        "fourthParagraph": "The Site is hosted by Infomaniak Network SA, which can be contacted at the following address: https://www.infomaniak.com/en/help",
         "dirPublication": "Publication director",
         "fifthParagraph": "The Publication Director is: Paul Jaguin.",
         "contact": "Contact",
