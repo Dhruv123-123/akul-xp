@@ -65,6 +65,21 @@
           "componentName": "Emc2Content",
           "isFocus": false,
           "isActive": false
+        },
+        {
+          "name": "Mini-Racecar",
+          "icon": "projects/projects-icon-sm.webp",
+          "title": {
+            "en": "Phone-Controlled Mini-Racecar",
+            "fr": "Mini-Racecar contrôlé par téléphone"
+          },
+          "date": {
+            "en": "2022",
+            "fr": "2022"
+          },
+          "componentName": "FannyContent",
+          "isFocus": false,
+          "isActive": false
         }
       ]
     }

@@ -7,7 +7,7 @@ import cvData from '@/data/cv-data.json'
 import WorkExperienceItem from './WorkExperienceItem.vue'
 
 const localeStore = useLocaleStore()
-const birthdate = new Date(2000, 0, 1) // AKUL: TODO: replace with real birthdate (month is 0-indexed)
+const birthdate = new Date(2005, 5, 15) // AKUL: age=20 (adjust month/day if needed)
 const today = new Date()
 let age = ref(today.getFullYear() - birthdate.getFullYear())
 

@@ -2,28 +2,28 @@
   <div class="text-xs md:text-header-window">
     <div class="flex w-full text-xxs md:text-xs items-center justify-center md:justify-start ml-px flex-wrap gap-4 md:min-w-80 md:ml-1">
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/php.svg" :alt="$t('common.icon') + ' php'" class="w-9 h-9" />
-        <p class="font-bold">PHP</p>
+        <span class="text-2xl">🔋</span>
+        <p class="font-bold">Battery</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/javascript.svg" :alt="$t('common.icon') + ' javascript'" class="w-9 h-9" />
-        <p class="font-bold">Javascript</p>
+        <span class="text-2xl">📐</span>
+        <p class="font-bold">CAD</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/scss.svg" :alt="$t('common.icon') + ' scss'" class="w-9 h-9" />
-        <p class="font-bold">Scss</p>
+        <span class="text-2xl">🔬</span>
+        <p class="font-bold">Simscape</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/workbench.svg" :alt="$t('common.icon') + ' workbench'" class="w-9 h-9" />
-        <p class="font-bold mt-px">MYSQL</p>
+        <span class="text-2xl">🌡️</span>
+        <p class="font-bold">Thermal</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/filezilla.svg" :alt="$t('common.icon') + ' filezilla'" class="w-8 h-9" />
-        <p class="font-bold mt-0.5">Filezilla</p>
+        <span class="text-2xl">⚡</span>
+        <p class="font-bold">Busbar</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/figma.svg" :alt="$t('common.icon') + ' figma'" class="w-9 h-9" />
-        <p class="font-bold mt-px">Figma</p>
+        <span class="text-2xl">🏁</span>
+        <p class="font-bold">FSAE</p>
       </div>
     </div>
     <h3 class="mt-5 mb-2">{{ $t('common.context') }}</h3>
