@@ -3,7 +3,12 @@
     <div class="absolute left-0 header-radius overflow-hidden bottom-0 mb-8 modal-size z-max bg-color-blue-window">
       <div class="w-full h-full relative overflow-hidden">
         <div class="h-16 flex items-center px-2 header-top-background">
-          <ProfilePicture class="w-11 h-11 stroke-white-1 header-profile-shadow" />
+          <!-- AKUL: generic user icon replacing profile picture -->
+          <div class="w-11 h-11 rounded-lg bg-blue-200 flex items-center justify-center stroke-white-1 header-profile-shadow">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#1a5276" class="w-7 h-7">
+              <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
+            </svg>
+          </div>
           <h2 class="text-lg ml-2 text-white text-shadow-header">Akul Ramasubban</h2> <!-- AKUL: updated name -->
         </div>
         <section class="relative w-full h-full px-0.5">
@@ -60,7 +65,6 @@ import { ref, watchEffect } from 'vue'
 import { useVolumeStore } from '@/stores/volumeStore.js'
 import { useLocaleStore } from '@/stores/localeStore'
 
-import ProfilePicture from '@/components/ProfilePicture.vue'
 import HeaderLeftButton from '@/components/Buttons/HeaderLeftButton.vue'
 import HeaderRightButton from '@/components/Buttons/HeaderRightButton.vue'
 import HeaderShutdown from '@/components/Buttons/HeaderShutdown.vue'

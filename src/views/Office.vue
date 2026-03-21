@@ -16,7 +16,6 @@
       @toggle-notepad="openWindow('notepad')"
       @toggle-doom="openWindow('doom')"
       @toggle-terminal="openWindow('terminal')"
-      @toggle-services="openWindow('services')"
       @toggle-flappyBird="openWindow('flappyBird')"
     />
     <DesktopAppsLayout
@@ -28,7 +27,6 @@
       @toggle-minesweeper="openWindow('minesweeper')"
       @toggle-notepad="openWindow('notepad')"
       @toggle-doom="openWindow('doom')"
-      @toggle-services="openWindow('services')"
       @toggle-flappyBird="openWindow('flappyBird')"
     />
     <div v-for="window in windows" :key="window.id">
@@ -83,7 +81,7 @@ import Calendar from '@/components/Windows/Calendar/Calendar.vue'
 import Notepad from '@/components/Windows/Notepad.vue'
 import Doom from '@/components/Windows/Doom.vue'
 import Terminal from '@/components/Windows/Terminal.vue'
-import Services from '@/components/Windows/Services.vue'
+// Services removed
 import FlappyBird from '@/components/Windows/FlappyBird.vue' // AKUL: Flappy Bird game
 
 import DesktopAppsLayout from '@/layouts/DesktopAppsLayout.vue'
@@ -133,7 +131,7 @@ const components = {
   Notepad: shallowRef(Notepad),
   Doom: shallowRef(Doom),
   Terminal: shallowRef(Terminal),
-  Services: shallowRef(Services),
+  // Services removed
   FlappyBird: shallowRef(FlappyBird) // AKUL: Flappy Bird game
 }
 
