@@ -2,9 +2,9 @@
   "name": "portfolio",
   "version": "1.0.2",
   "private": false,
-  "author": "Paul Jaguin <paul@rocketegg.systems>",
+  "author": "Akul Ramasubban",
   "license": "MIT",
-  "homepage": "https://pauljaguin.com",
+  "homepage": "https://akulramasubban.com",
   "scripts": {
     "dev": "vite --host",
     "sass": "sass --watch sass/main.scss:css/main.css",

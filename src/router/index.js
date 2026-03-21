@@ -10,28 +10,28 @@ const router = createRouter({
       name: 'home',
       component: Loader,
       meta: {
-        title: 'Portfolio | Paul Jaguin - Développeur Web',
+        title: 'Akul Ramasubban | Portfolio XP', // AKUL: updated
         metaTags: [
           {
             rel: 'canonical',
-            href: 'https://pauljaguin.com'
+            href: 'https://akulramasubban.com' // AKUL: updated URL
           },
           {
             name: 'title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Akul Ramasubban | Portfolio XP' // AKUL: updated
           },
           {
             name: 'description',
             content:
-              "Découvrez le portfolio de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              'Interactive Windows XP portfolio of Akul Ramasubban — Software Engineer' // AKUL: updated
           },
           {
             name: 'keywords',
-            content: 'portfolio, paul jaguin, développeur web, full stack, sites web, applications web, applications mobiles, JS, PHP, SQL, ORM, frameworks, DevOps'
+            content: 'portfolio, akul ramasubban, software engineer, developer, projects' // AKUL: updated
           },
           {
             name: 'author',
-            content: 'Paul Jaguin'
+            content: 'Akul Ramasubban' // AKUL: updated
           },
           {
             name: 'robots',
@@ -51,11 +51,11 @@ const router = createRouter({
           },
           {
             name: 'apple-mobile-web-app-title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Akul Ramasubban | Portfolio XP' // AKUL: updated
           },
           {
             name: 'application-name',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Akul Ramasubban | Portfolio XP' // AKUL: updated
           },
           {
             name: 'twitter:card',
@@ -63,20 +63,20 @@ const router = createRouter({
           },
           {
             name: 'twitter:title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Akul Ramasubban | Portfolio XP' // AKUL: updated
           },
           {
             name: 'twitter:description',
             content:
-              "Découvrez le portfolio de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              'Interactive Windows XP portfolio of Akul Ramasubban' // AKUL: updated
           },
           {
             name: 'twitter:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: '/img/logo-portfolio-black.webp' // AKUL: updated
           },
           {
             name: 'twitter:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Logo Portfolio Akul Ramasubban' // AKUL: updated
           },
           {
             property: 'og:type',
@@ -84,36 +84,36 @@ const router = createRouter({
           },
           {
             property: 'og:title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Akul Ramasubban | Portfolio XP' // AKUL: updated
           },
           {
             property: 'og:description',
             content:
-              "Découvrez le portfolio de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              'Interactive Windows XP portfolio of Akul Ramasubban' // AKUL: updated
           },
           {
             property: 'og:site_name',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Akul Ramasubban | Portfolio XP' // AKUL: updated
           },
           {
             property: 'og:url',
-            content: 'https://pauljaguin.com'
+            content: 'https://akulramasubban.com' // AKUL: updated
           },
           {
             property: 'og:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: '/img/logo-portfolio-black.webp' // AKUL: updated
           },
           {
             property: 'og:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Logo Portfolio Akul Ramasubban' // AKUL: updated
           },
           {
             property: 'og:locale',
-            content: 'fr_FR'
+            content: 'en_US' // AKUL: changed to en_US
           },
           {
             property: 'og:locale:alternate',
-            content: 'en_US'
+            content: 'fr_FR'
           }
         ]
       }
@@ -123,28 +123,28 @@ const router = createRouter({
       name: 'Office',
       component: Office,
       meta: {
-        title: 'Bureau | Paul Jaguin - Développeur Web',
+        title: 'Desktop | Akul Ramasubban - Portfolio XP', // AKUL: updated
         metaTags: [
           {
             rel: 'canonical',
-            href: 'https://pauljaguin.com/office'
+            href: 'https://akulramasubban.com/office' // AKUL: updated
           },
           {
             name: 'title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Desktop | Akul Ramasubban - Portfolio XP' // AKUL: updated
           },
           {
             name: 'description',
             content:
-              "Découvrez le bureau de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              'Desktop of Akul Ramasubban — Interactive Windows XP portfolio experience' // AKUL: updated
           },
           {
             name: 'keywords',
-            content: 'bureau, paul jaguin, développeur web, full stack, sites web, applications web, applications mobiles, JS, PHP, SQL, ORM, frameworks, DevOps'
+            content: 'desktop, akul ramasubban, software engineer, portfolio, projects' // AKUL: updated
           },
           {
             name: 'author',
-            content: 'Paul Jaguin'
+            content: 'Akul Ramasubban' // AKUL: updated
           },
           {
             name: 'robots',
@@ -164,11 +164,11 @@ const router = createRouter({
           },
           {
             name: 'apple-mobile-web-app-title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Desktop | Akul Ramasubban - Portfolio XP' // AKUL: updated
           },
           {
             name: 'application-name',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Desktop | Akul Ramasubban - Portfolio XP' // AKUL: updated
           },
           {
             name: 'twitter:card',
@@ -176,20 +176,20 @@ const router = createRouter({
           },
           {
             name: 'twitter:title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Desktop | Akul Ramasubban - Portfolio XP' // AKUL: updated
           },
           {
             name: 'twitter:description',
             content:
-              "Découvrez le bureau de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              'Desktop of Akul Ramasubban — Interactive Windows XP portfolio experience' // AKUL: updated
           },
           {
             name: 'twitter:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: '/img/logo-portfolio-black.webp' // AKUL: updated
           },
           {
             name: 'twitter:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Logo Portfolio Akul Ramasubban' // AKUL: updated
           },
           {
             name: 'og:type',
@@ -197,36 +197,36 @@ const router = createRouter({
           },
           {
             name: 'og:title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Desktop | Akul Ramasubban - Portfolio XP' // AKUL: updated
           },
           {
             name: 'og:description',
             content:
-              "Découvrez le bureau de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              'Desktop of Akul Ramasubban — Interactive Windows XP portfolio experience' // AKUL: updated
           },
           {
             name: 'og:site_name',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Desktop | Akul Ramasubban - Portfolio XP' // AKUL: updated
           },
           {
             name: 'og:url',
-            content: 'https://pauljaguin.com/office'
+            content: 'https://akulramasubban.com/office' // AKUL: updated
           },
           {
             name: 'og:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: '/img/logo-portfolio-black.webp' // AKUL: updated
           },
           {
             name: 'og:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Logo Portfolio Akul Ramasubban' // AKUL: updated
           },
           {
             name: 'og:locale',
-            content: 'fr_FR'
+            content: 'en_US' // AKUL: changed to en_US
           },
           {
             name: 'og:locale:alternate',
-            content: 'en_US'
+            content: 'fr_FR'
           }
         ]
       }

@@ -10,7 +10,11 @@ import ContentCenter from '@/layouts/ContentCenter.vue'
 
     <template #center>
       <div class="md:w-4/12 w-64 ml-5 mb-10">
-        <img src="/img/logo-portfolio-black.webp" :alt="$t('alt.logoLoading')" />
+        <!-- AKUL: inline SVG logo replacing Paul's image -->
+        <svg viewBox="0 0 500 80" xmlns="http://www.w3.org/2000/svg">
+          <text x="0" y="55" font-family="Trebuchet MS, Tahoma, sans-serif" font-size="42" font-weight="bold" fill="#1a1a2e" letter-spacing="2">Akul Ramasubban</text>
+          <text x="0" y="75" font-family="Trebuchet MS, Tahoma, sans-serif" font-size="14" fill="#444" letter-spacing="4">PORTFOLIO</text>
+        </svg>
       </div>
     </template>
 

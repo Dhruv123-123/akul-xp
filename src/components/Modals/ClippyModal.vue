@@ -63,18 +63,12 @@ const dismissForever = () => {
 						<p class="text-xs text-black mb-3">{{ t('clippy.message') }}</p>
 
 						<!-- Buttons -->
-						<div class="flex flex-col gap-2">
-							<a	href="https://github.com/UnMugViolet/portfolio" 
+						<div class="flex flex-col gap-2"> <!-- AKUL: removed buy-me-a-coffee link, updated GitHub -->
+							<a	href="https://github.com/akulramasubban"
 								target="_blank"
 								class="bg-button-submit hover:shadow-button-submit-hover active:bg-button-clicked border border-twilight-blue rounded px-3 py-1 text-xs text-black flex items-center justify-center gap-2 cursor-pointer shadow-sm">
 								<span>⭐</span>
 								<span>{{ t('clippy.starRepo') }}</span>
-							</a>
-							<a  href="https://buymeacoffee.com/unmugviolet"
-								target="_blank"
-								class="bg-button-submit hover:shadow-button-submit-hover active:bg-button-clicked border border-twilight-blue rounded px-3 py-1 text-xs text-black flex items-center justify-center gap-2 cursor-pointer shadow-sm">
-								<span>☕</span>
-								<span>{{ t('clippy.buyMeCoffee') }}</span>
 							</a>
 						</div>
 

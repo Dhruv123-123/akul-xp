@@ -17,7 +17,7 @@ const pinia = createPinia()
 const head = createHead()
 const i18n = createI18n({
   legacy: false,
-  locale: localStorage.getItem('currentLocale') || 'fr',
+  locale: localStorage.getItem('currentLocale') || 'en', // AKUL: default to English
   fallbackLocale: 'en',
   messages: {
     en,
@@ -30,12 +30,13 @@ app.use(router)
 app.use(head)
 app.use(i18n)
 
-if (import.meta.env.MODE === 'production') {
-  app.use(VueMatomo, {
-    host: 'https://matomo.rocketegg.systems',
-    siteId: 1
-  })
-  window._paq.push(['trackPageView'])
-}
+// AKUL: Matomo analytics disabled — configure with your own instance if needed
+// if (import.meta.env.MODE === 'production') {
+//   app.use(VueMatomo, {
+//     host: 'https://your-matomo-instance.com',
+//     siteId: 1
+//   })
+//   window._paq.push(['trackPageView'])
+// }
 
 app.mount('#app')

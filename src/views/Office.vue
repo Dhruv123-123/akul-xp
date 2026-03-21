@@ -17,6 +17,7 @@
       @toggle-doom="openWindow('doom')"
       @toggle-terminal="openWindow('terminal')"
       @toggle-services="openWindow('services')"
+      @toggle-flappyBird="openWindow('flappyBird')"
     />
     <DesktopAppsLayout
       :entities="entities"
@@ -28,6 +29,7 @@
       @toggle-notepad="openWindow('notepad')"
       @toggle-doom="openWindow('doom')"
       @toggle-services="openWindow('services')"
+      @toggle-flappyBird="openWindow('flappyBird')"
     />
     <div v-for="window in windows" :key="window.id">
       <Window
@@ -82,6 +84,7 @@ import Notepad from '@/components/Windows/Notepad.vue'
 import Doom from '@/components/Windows/Doom.vue'
 import Terminal from '@/components/Windows/Terminal.vue'
 import Services from '@/components/Windows/Services.vue'
+import FlappyBird from '@/components/Windows/FlappyBird.vue' // AKUL: Flappy Bird game
 
 import DesktopAppsLayout from '@/layouts/DesktopAppsLayout.vue'
 import Window from '@/layouts/Window.vue'
@@ -96,7 +99,7 @@ const localeStore = useLocaleStore()
 
 onMounted(() => {
   // Ensure the localeStore is updated with the correct locale from localStorage
-  const storedLocale = localStorage.getItem('currentLocale') || 'fr'
+  const storedLocale = localStorage.getItem('currentLocale') || 'en' // AKUL: default English
   localeStore.setLocale(storedLocale)
 
   windowsStore.loadState()
@@ -130,7 +133,8 @@ const components = {
   Notepad: shallowRef(Notepad),
   Doom: shallowRef(Doom),
   Terminal: shallowRef(Terminal),
-  Services: shallowRef(Services)
+  Services: shallowRef(Services),
+  FlappyBird: shallowRef(FlappyBird) // AKUL: Flappy Bird game
 }
 
 // Create the entities array from the data.json

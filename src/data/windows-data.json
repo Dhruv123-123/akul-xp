@@ -310,5 +310,33 @@
     "minHeight": 160,
     "component": "Services",
     "leftMenuType": "default"
+  },
+  {
+    "id": "flappyBird",
+    "title": {
+      "en": "Flappy Bird",
+      "fr": "Flappy Bird"
+    },
+    "subtitle": {
+      "en": "Play Flappy Bird",
+      "fr": "Jouer à Flappy Bird"
+    },
+    "imgSrc": "/img/icons/minesweeper/minesweeper-icon-lg.webp",
+    "onDesktop": true,
+    "resizable": false,
+    "windowsHeaderLogo": false,
+    "isSearchVisible": false,
+    "headerPosition": "right",
+    "headerToolsId": "",
+    "menuHeaderItemsId": "none",
+    "iconSrc": "/img/icons/minesweeper/minesweeper-icon-sm.webp",
+    "initPositionX": 200,
+    "initPositionY": 50,
+    "initWidth": 340,
+    "initHeight": 560,
+    "minWidth": 340,
+    "minHeight": 560,
+    "component": "FlappyBird",
+    "leftMenuType": ""
   }
 ]
