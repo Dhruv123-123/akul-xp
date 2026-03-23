@@ -98,7 +98,7 @@
       "duration": "Durée",
       "link": "Liens",
       "artist": "Artiste",
-      "description": "Une playlist créée spécialement pour mon portfolio, elle contient mes morceaux préférés.",
+      "description": "La playlist tomorrowland de Dhruv — une collection de classiques intemporels.",
       "visitOnSpotify": "Voir sur Spotify",
       "albumCover": "Couverture de l'album",
       "playlistCoverAlt": "Couverture de la playlist"
@@ -112,7 +112,7 @@
     "documents": {
       "about": {
         "title": "À propos",
-        "contextFirstParagraph": "Je suis Akul Ramasubban — étudiant en génie mécanique à Purdue University, passionné par le design intentionnel et les solutions d'ingénierie concrètes.",
+        "contextFirstParagraph": "Je suis Dhruv Ramasubban — étudiant en génie mécanique à Purdue University, passionné par le design intentionnel et les solutions d'ingénierie concrètes.",
         "contextSecondParagraph": "Ce portfolio interactif Windows XP vous permet d'explorer mon travail via une interface bureau nostalgique.",
         "contextThirdParagraph": "De la conception de batteries pour Purdue Electric Racing à la construction d'un chariot électrique à Bangalore, j'aime relever les défis d'ingénierie.",
         "contextFourthParagraph": "J'ai effectué des stages chez Ford Motor Company et Tredence Inc., et travaillé comme chercheur au labo ARIES et à l'équipe AI Racing de Purdue.",
@@ -121,21 +121,21 @@
         "contextSeventhParagraph": "J'espère que vous apprécierez la visite !",
         "secondTitle": "Crédits",
         "helpFirst": "Ce portfolio est un fork de UnMugViolet/portfolio — un grand merci à Paul Jaguin pour le concept original Windows XP.",
-        "helpSecond": "L'API de Spotify alimente l'intégration du lecteur de musique.",
+        "helpSecond": "La musique est intégrée directement via le lecteur embarqué de Spotify.",
         "helpThird": "Construit avec Vite et déployé via Vercel.",
         "helpFourth": "Les images de Windows XP proviennent de l'Internet Archive.",
-        "helpFifth": "Contactez-moi à aramasub{'@'}purdue.edu ou sur LinkedIn."
+        "helpFifth": "Contactez-moi à dramasub{'@'}purdue.edu ou sur LinkedIn."
       },
       "legal": {
         "title": "Mentions légales",
-        "firstParagraph": "Ce site portfolio appartient à Akul Ramasubban. Tout le contenu est fourni à titre informatif.",
+        "firstParagraph": "Ce site portfolio appartient à Dhruv Ramasubban. Tout le contenu est fourni à titre informatif.",
         "edit": "Edition du site",
-        "secondParagraph": "Ce site est créé et maintenu par Akul Ramasubban.",
-        "thirdParagraph": "Akul Ramasubban, San Francisco, CA.",
+        "secondParagraph": "Ce site est créé et maintenu par Dhruv Ramasubban.",
+        "thirdParagraph": "Dhruv Ramasubban, San Francisco, CA.",
         "hosting": "Hébergement",
         "fourthParagraph": "Ce site est hébergé via Vercel.",
         "dirPublication": "Directeur de publication",
-        "fifthParagraph": "Le Directeur de publication est : Akul Ramasubban.",
+        "fifthParagraph": "Le Directeur de publication est : Dhruv Ramasubban.",
         "contact": "Contact",
         "sixthParagraph": "Pour toute question sur ce site, vous pouvez envoyer un message à l’adresse email suivante :"
       }

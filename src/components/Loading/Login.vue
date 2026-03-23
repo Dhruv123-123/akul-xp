@@ -12,7 +12,7 @@
               <div class="w-2/3">
                 <!-- AKUL: inline SVG logo replacing Paul's image -->
                 <svg viewBox="0 0 500 80" xmlns="http://www.w3.org/2000/svg" class="mb-3">
-                  <text x="0" y="55" font-family="Trebuchet MS, Tahoma, sans-serif" font-size="42" font-weight="bold" fill="white" letter-spacing="2">Akul Ramasubban</text>
+                  <text x="0" y="55" font-family="Trebuchet MS, Tahoma, sans-serif" font-size="42" font-weight="bold" fill="white" letter-spacing="2">Dhruv Ramasubban</text>
                   <text x="0" y="75" font-family="Trebuchet MS, Tahoma, sans-serif" font-size="14" fill="#aaa" letter-spacing="4">PORTFOLIO</text>
                 </svg>
               </div>

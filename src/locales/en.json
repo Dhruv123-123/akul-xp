@@ -99,7 +99,7 @@
       "duration": "Duration",
       "link": "Links",
       "artist": "Artist",
-      "description": "A playlist created especially for my portfolio, it contains my favorite tracks.",
+      "description": "Dhruv's tomorrowland playlist — a collection of all-time classics.",
       "visitOnSpotify": "Listen on Spotify",
       "accessFirstSentence": "To access this feature,",
       "accessSecondSentence": "it is mandatory to connect to Spotify",
@@ -116,7 +116,7 @@
     "documents": {
       "about": {
         "title": "About",
-        "contextFirstParagraph": "I'm Akul Ramasubban — a mechanical engineering student at Purdue University focused on intentional design, real-world constraints, and engineering solutions that improve everyday work.",
+        "contextFirstParagraph": "I'm Dhruv Ramasubban — a mechanical engineering student at Purdue University focused on intentional design, real-world constraints, and engineering solutions that improve everyday work.",
         "contextSecondParagraph": "This interactive Windows XP portfolio lets you explore my work through a nostalgic desktop interface.",
         "contextThirdParagraph": "From designing battery packs for Purdue Electric Racing to building an electric waste-pushcart in Bangalore, I love tackling hands-on engineering challenges.",
         "contextFourthParagraph": "I've interned at Ford Motor Company, Tredence Inc., and worked as a researcher at Purdue's ARIES Lab and AI Racing team.",
@@ -125,21 +125,21 @@
         "contextSeventhParagraph": "I hope you enjoy browsing through my computer!",
         "secondTitle": "Credits",
         "helpFirst": "This portfolio is forked from UnMugViolet/portfolio — huge thanks to Paul Jaguin for the original Windows XP concept.",
-        "helpSecond": "Spotify's API powers the music player integration.",
+        "helpSecond": "Music is embedded directly via Spotify's embed player.",
         "helpThird": "Built with Vite and deployed via GitHub Pages.",
         "helpFourth": "Windows XP images were sourced from the Internet Archive.",
-        "helpFifth": "Reach me at aramasub{'@'}purdue.edu or connect on LinkedIn."
+        "helpFifth": "Reach me at dramasub{'@'}purdue.edu or connect on LinkedIn."
       },
       "legal": {
         "title": "Legal notices",
-        "firstParagraph": "This portfolio website belongs to Akul Ramasubban. All content is provided for informational purposes.",
+        "firstParagraph": "This portfolio website belongs to Dhruv Ramasubban. All content is provided for informational purposes.",
         "edit": "Site editing",
-        "secondParagraph": "This site is created and maintained by Akul Ramasubban.",
-        "thirdParagraph": "Akul Ramasubban, San Francisco, CA.",
+        "secondParagraph": "This site is created and maintained by Dhruv Ramasubban.",
+        "thirdParagraph": "Dhruv Ramasubban, San Francisco, CA.",
         "hosting": "Hosting",
         "fourthParagraph": "This site is hosted via GitHub Pages.",
         "dirPublication": "Publication director",
-        "fifthParagraph": "The Publication Director is: Akul Ramasubban.",
+        "fifthParagraph": "The Publication Director is: Dhruv Ramasubban.",
         "contact": "Contact",
         "sixthParagraph": "For any questions about this site, you can reach out at the following email address:"
       }

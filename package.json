@@ -2,9 +2,9 @@
   "name": "portfolio",
   "version": "1.0.2",
   "private": false,
-  "author": "Akul Ramasubban",
+  "author": "Dhruv Ramasubban",
   "license": "MIT",
-  "homepage": "https://akulramasubban.com",
+  "homepage": "https://dhruvramasubban.com",
   "scripts": {
     "dev": "vite --host",
     "sass": "sass --watch sass/main.scss:css/main.css",

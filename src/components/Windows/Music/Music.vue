@@ -52,7 +52,7 @@
                   <div class="pl-2 w-8">
                     <p class="text-xs font-trebuchet-pixel">{{ index + 1 }}</p>
                   </div>
-                  <div @click="playTrack(track.id)" class="flex items-center gap-2 cursor-pointer hover:underline">
+                  <div @click="openTrack(track.album.external_urls.spotify)" class="flex items-center gap-2 cursor-pointer hover:underline">
                     <img :src="track.album.images[0].url" :alt="$t('windows.music.albumCover') + ' ' + track.name" class="w-12 rounded-sm" />
                     <div class="flex flex-col max-w-48">
                       <p class="text-sm font-trebuchet-pixel">{{ track.name }}</p>
@@ -102,7 +102,7 @@
             </div>
           </div>
           <div v-if="loading" />
-          <Player v-else :playlist="playlist.tracks.items" :trackToggled="selectedTrack" />
+          <Player v-else :playlist="playlist.tracks.items" />
         </div>
       </div>
     </div>
@@ -120,7 +120,6 @@ import playlistData from '@/data/playlist-data.json'
 
 const localeStore = useLocaleStore()
 
-const selectedTrack = ref('')
 const loading = ref(true)
 const playlist = ref({})
 
@@ -153,8 +152,8 @@ const formatDuration = (durationMs) => {
   return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`
 }
 
-function playTrack(id) {
-  selectedTrack.value = id
+function openTrack(url) {
+  if (url) window.open(url, '_blank')
 }
 
 function formatDate(date) {

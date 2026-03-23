@@ -10,28 +10,28 @@ const router = createRouter({
       name: 'home',
       component: Loader,
       meta: {
-        title: 'Akul Ramasubban | Portfolio XP', // AKUL: updated
+        title: 'Dhruv Ramasubban | Portfolio XP', // AKUL: updated
         metaTags: [
           {
             rel: 'canonical',
-            href: 'https://akulramasubban.com' // AKUL: updated URL
+            href: 'https://dhruvramasubban.com' // AKUL: updated URL
           },
           {
             name: 'title',
-            content: 'Akul Ramasubban | Portfolio XP' // AKUL: updated
+            content: 'Dhruv Ramasubban | Portfolio XP' // AKUL: updated
           },
           {
             name: 'description',
             content:
-              'Interactive Windows XP portfolio of Akul Ramasubban — Software Engineer' // AKUL: updated
+              'Interactive Windows XP portfolio of Dhruv Ramasubban — Software Engineer' // AKUL: updated
           },
           {
             name: 'keywords',
-            content: 'portfolio, akul ramasubban, software engineer, developer, projects' // AKUL: updated
+            content: 'portfolio, dhruv ramasubban, software engineer, developer, projects' // AKUL: updated
           },
           {
             name: 'author',
-            content: 'Akul Ramasubban' // AKUL: updated
+            content: 'Dhruv Ramasubban' // AKUL: updated
           },
           {
             name: 'robots',
@@ -51,11 +51,11 @@ const router = createRouter({
           },
           {
             name: 'apple-mobile-web-app-title',
-            content: 'Akul Ramasubban | Portfolio XP' // AKUL: updated
+            content: 'Dhruv Ramasubban | Portfolio XP' // AKUL: updated
           },
           {
             name: 'application-name',
-            content: 'Akul Ramasubban | Portfolio XP' // AKUL: updated
+            content: 'Dhruv Ramasubban | Portfolio XP' // AKUL: updated
           },
           {
             name: 'twitter:card',
@@ -63,12 +63,12 @@ const router = createRouter({
           },
           {
             name: 'twitter:title',
-            content: 'Akul Ramasubban | Portfolio XP' // AKUL: updated
+            content: 'Dhruv Ramasubban | Portfolio XP' // AKUL: updated
           },
           {
             name: 'twitter:description',
             content:
-              'Interactive Windows XP portfolio of Akul Ramasubban' // AKUL: updated
+              'Interactive Windows XP portfolio of Dhruv Ramasubban' // AKUL: updated
           },
           {
             name: 'twitter:image',
@@ -76,7 +76,7 @@ const router = createRouter({
           },
           {
             name: 'twitter:image:alt',
-            content: 'Logo Portfolio Akul Ramasubban' // AKUL: updated
+            content: 'Logo Portfolio Dhruv Ramasubban' // AKUL: updated
           },
           {
             property: 'og:type',
@@ -84,20 +84,20 @@ const router = createRouter({
           },
           {
             property: 'og:title',
-            content: 'Akul Ramasubban | Portfolio XP' // AKUL: updated
+            content: 'Dhruv Ramasubban | Portfolio XP' // AKUL: updated
           },
           {
             property: 'og:description',
             content:
-              'Interactive Windows XP portfolio of Akul Ramasubban' // AKUL: updated
+              'Interactive Windows XP portfolio of Dhruv Ramasubban' // AKUL: updated
           },
           {
             property: 'og:site_name',
-            content: 'Akul Ramasubban | Portfolio XP' // AKUL: updated
+            content: 'Dhruv Ramasubban | Portfolio XP' // AKUL: updated
           },
           {
             property: 'og:url',
-            content: 'https://akulramasubban.com' // AKUL: updated
+            content: 'https://dhruvramasubban.com' // AKUL: updated
           },
           {
             property: 'og:image',
@@ -105,7 +105,7 @@ const router = createRouter({
           },
           {
             property: 'og:image:alt',
-            content: 'Logo Portfolio Akul Ramasubban' // AKUL: updated
+            content: 'Logo Portfolio Dhruv Ramasubban' // AKUL: updated
           },
           {
             property: 'og:locale',
@@ -123,28 +123,28 @@ const router = createRouter({
       name: 'Office',
       component: Office,
       meta: {
-        title: 'Desktop | Akul Ramasubban - Portfolio XP', // AKUL: updated
+        title: 'Desktop | Dhruv Ramasubban - Portfolio XP', // AKUL: updated
         metaTags: [
           {
             rel: 'canonical',
-            href: 'https://akulramasubban.com/office' // AKUL: updated
+            href: 'https://dhruvramasubban.com/office' // AKUL: updated
           },
           {
             name: 'title',
-            content: 'Desktop | Akul Ramasubban - Portfolio XP' // AKUL: updated
+            content: 'Desktop | Dhruv Ramasubban - Portfolio XP' // AKUL: updated
           },
           {
             name: 'description',
             content:
-              'Desktop of Akul Ramasubban — Interactive Windows XP portfolio experience' // AKUL: updated
+              'Desktop of Dhruv Ramasubban — Interactive Windows XP portfolio experience' // AKUL: updated
           },
           {
             name: 'keywords',
-            content: 'desktop, akul ramasubban, software engineer, portfolio, projects' // AKUL: updated
+            content: 'desktop, dhruv ramasubban, software engineer, portfolio, projects' // AKUL: updated
           },
           {
             name: 'author',
-            content: 'Akul Ramasubban' // AKUL: updated
+            content: 'Dhruv Ramasubban' // AKUL: updated
           },
           {
             name: 'robots',
@@ -164,11 +164,11 @@ const router = createRouter({
           },
           {
             name: 'apple-mobile-web-app-title',
-            content: 'Desktop | Akul Ramasubban - Portfolio XP' // AKUL: updated
+            content: 'Desktop | Dhruv Ramasubban - Portfolio XP' // AKUL: updated
           },
           {
             name: 'application-name',
-            content: 'Desktop | Akul Ramasubban - Portfolio XP' // AKUL: updated
+            content: 'Desktop | Dhruv Ramasubban - Portfolio XP' // AKUL: updated
           },
           {
             name: 'twitter:card',
@@ -176,12 +176,12 @@ const router = createRouter({
           },
           {
             name: 'twitter:title',
-            content: 'Desktop | Akul Ramasubban - Portfolio XP' // AKUL: updated
+            content: 'Desktop | Dhruv Ramasubban - Portfolio XP' // AKUL: updated
           },
           {
             name: 'twitter:description',
             content:
-              'Desktop of Akul Ramasubban — Interactive Windows XP portfolio experience' // AKUL: updated
+              'Desktop of Dhruv Ramasubban — Interactive Windows XP portfolio experience' // AKUL: updated
           },
           {
             name: 'twitter:image',
@@ -189,7 +189,7 @@ const router = createRouter({
           },
           {
             name: 'twitter:image:alt',
-            content: 'Logo Portfolio Akul Ramasubban' // AKUL: updated
+            content: 'Logo Portfolio Dhruv Ramasubban' // AKUL: updated
           },
           {
             name: 'og:type',
@@ -197,20 +197,20 @@ const router = createRouter({
           },
           {
             name: 'og:title',
-            content: 'Desktop | Akul Ramasubban - Portfolio XP' // AKUL: updated
+            content: 'Desktop | Dhruv Ramasubban - Portfolio XP' // AKUL: updated
           },
           {
             name: 'og:description',
             content:
-              'Desktop of Akul Ramasubban — Interactive Windows XP portfolio experience' // AKUL: updated
+              'Desktop of Dhruv Ramasubban — Interactive Windows XP portfolio experience' // AKUL: updated
           },
           {
             name: 'og:site_name',
-            content: 'Desktop | Akul Ramasubban - Portfolio XP' // AKUL: updated
+            content: 'Desktop | Dhruv Ramasubban - Portfolio XP' // AKUL: updated
           },
           {
             name: 'og:url',
-            content: 'https://akulramasubban.com/office' // AKUL: updated
+            content: 'https://dhruvramasubban.com/office' // AKUL: updated
           },
           {
             name: 'og:image',
@@ -218,7 +218,7 @@ const router = createRouter({
           },
           {
             name: 'og:image:alt',
-            content: 'Logo Portfolio Akul Ramasubban' // AKUL: updated
+            content: 'Logo Portfolio Dhruv Ramasubban' // AKUL: updated
           },
           {
             name: 'og:locale',
